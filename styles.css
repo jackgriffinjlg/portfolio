@@ -1,0 +1,72 @@
+* {
+	color: #191923;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+#languages,
+#projects,
+#resume,
+div.container {
+  text-align: center;
+}
+
+#languages,
+#resume{
+	margin-bottom: 100px;
+}
+
+#aboutMe {
+	display: flex;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	border: 3px solid #0E79B2;
+	border-radius: 25px;
+	font: large;
+}
+
+ul.myuL {
+  display: inline-block;
+  text-align: left;
+  border: 3px solid #0E79B2;
+  padding: 25px;
+  border-radius: 25px
+}
+
+table {
+	display: inline-block;
+}
+
+table, th, td {
+	border: 1px solid #0E79B2;
+	text-align: center;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#Projects,
+#resume {
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+img {
+	position: rel;
+}
+
+body {
+	background-color: #FBFEF9;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  width:100%;
+}
+.wrapper > div img {
+  max-width:100%;
+}
