@@ -17,7 +17,7 @@ div.container {
 }
 
 #aboutMe {
-	display: flex;
+	display: block;
 	width: 50%;
 	margin: auto;
 	padding: 10px;
@@ -28,7 +28,9 @@ div.container {
 }
 
 ul.myuL {
-  display: inline-block;
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
   text-align: left;
   border: 3px solid #0E79B2;
   padding: 25px;
@@ -67,6 +69,14 @@ body {
   grid-row-gap: 25px;
   width:100%;
 }
-.wrapper > div img {
-  max-width:100%;
+
+.myLinks {
+	display: inline-flex;
+	list-style: none;
+	align: center;
+}
+
+.myLinks img {
+	border-radius: 25px;
+	margin-right: 40px;
 }
