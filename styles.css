@@ -41,7 +41,8 @@ body {
    border-radius: 25px;
    width: 55%;
 }
-.myuL {
+.myuL,
+.projects {
   margin: 15px;
   text-align: left;
   border: 3px solid #0E79B2;
